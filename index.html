@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Classification</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Image Classification Demo</h1>
+    </header>
+    <main>
+        <section>
+            <input type="file" id="image-upload" accept="image/*">
+            <button id="classify-btn">Classify Image</button>
+        </section>
+        <section id="result">
+            <h2>Classification Result</h2>
+            <div id="output"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Image Classification Demo. All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="script.js"></script>
+</body>
+</html>
